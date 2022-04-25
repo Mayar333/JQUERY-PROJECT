@@ -1,0 +1,194 @@
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#home{
+  height: 100vh;
+  background-image: url(../Image/1.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  
+}
+.home-color{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(214, 46, 51, 0.6 );
+color: white;
+ }
+ .home-color p{
+   text-align: center;
+ }
+h1{
+  font-size: 60px;
+  margin-top: 200px;
+  text-align: center;
+}
+.nav{
+ width: 250px;
+ height:100%;
+ background-color: #414658;
+position: fixed;
+top: 0px;
+left: 0px;
+padding-top: 60px;
+display: none;
+transition: all 2s;
+z-index: 99999;
+animation: 2s;
+transition: all 2s;
+}
+
+.nav ul{
+ list-style: none;
+}
+ .list a{
+  text-decoration: none;
+  padding: 20px 8px 20px 32px;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.nav ul :hover{
+  color: rgba(214, 46, 51 , 0.4);
+}
+  .closebtn{
+  font-size: 30px;
+  cursor: pointer;
+  padding: 20px 8px 20px 32px;
+  color: white;
+  position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition: all 2s;
+}
+
+.nav a  :hover{
+  color: rgba(214, 46, 51 , 0.4);
+}
+.togglebtn{
+  font-size: 30px;
+  cursor: pointer;
+position: absolute;
+top: 300px;
+left: 20px;
+transition: all 2s;
+}
+.together{
+  display: inline;
+  
+}
+#singers{
+  margin: 100% auto;
+  width: 50%;
+  text-align: center;
+  margin: 50px 221.750px;
+  padding: 100px;
+}
+#singers h3{
+
+padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#singers div{
+  display: none;
+}
+#counter{
+
+  padding: 100px;
+margin-bottom:  100px 0px;
+  height: 330px;
+  background-image: url(../Image/invitation-2508607__340.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+}
+.counter-color{
+  background-color: rgba(214, 46, 51 , 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+}
+.items{
+  padding: 50px;
+  border: 1px solid white;
+  text-align: center;
+}
+#connect{
+  padding: 100px ;
+ 
+}
+.container{
+  padding: 100px 0px;
+}
+.social-icon{
+  margin-top: 60px;
+}
+.social-icon i{
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  color: #777;
+}
+.social-icon i:hover{
+  color: #fff;
+  background-color: #D62E33;
+  border: 1px solid #D62E33;
+}
+
+iput{
+  height: 46px !important;
+  padding: 10px 16px !important;
+  font-size: 18px !important;
+  line-height: 1.3 !important;
+  margin-bottom: 20px;
+}
+textarea{
+  height: 200px !important;
+  margin-bottom: 20px;
+  font-size: 18px !important;
+}
+#char{
+  font-size: 20px;
+  color: #D62E33;
+}
+button{
+  background-color: #D62E33 !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    margin-top: 20px !important;
+}
+.h2contact{
+font-size: 35px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.h3contact{
+  color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-weight:bolder;
+}
+.test{
+  color: #777777;
+  margin-bottom: 40px;
+}
+.tests{
+  color:  #D62E33;
+  margin-bottom: 35px;
+}
